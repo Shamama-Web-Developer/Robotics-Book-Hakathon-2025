@@ -14,16 +14,14 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://your-github-username.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/REBOTIC-BOOK-HAKATHON/',
+  // Set the production url of your site here (Vercel deployment)
+  url: 'https://robotics-book-hakathon-2025.vercel.app',
+  // For Vercel deployment, baseUrl should be '/'
+  baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-username', // Usually your GitHub org/user name.
-  projectName: 'REBOTIC-BOOK-HAKATHON', // Usually your repo name.
+  organizationName: 'Shamama-Web-Developer', // Your GitHub username
+  projectName: 'Robotics-Book-Hakathon-2025', // Your repo name
 
   onBrokenLinks: 'throw',
 
@@ -41,10 +39,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Shamama-Web-Developer/Robotics-Book-Hakathon-2025/tree/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -52,10 +48,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Shamama-Web-Developer/Robotics-Book-Hakathon-2025/tree/main/website/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -89,7 +83,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/your-github-username/REBOTIC-BOOK-HAKATHON',
+          href: 'https://github.com/Shamama-Web-Developer/Robotics-Book-Hakathon-2025',
           label: 'GitHub',
           position: 'right',
         },
@@ -149,7 +143,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/your-github-username/REBOTIC-BOOK-HAKATHON',
+              href: 'https://github.com/Shamama-Web-Developer/Robotics-Book-Hakathon-2025',
             },
           ],
         },
