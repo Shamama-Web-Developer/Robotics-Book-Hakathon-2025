@@ -10,7 +10,10 @@
       "Bash(npm run build:*)",
       "Bash(if [ -d \"website\" ])",
       "Bash(then ls -la website/)",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
